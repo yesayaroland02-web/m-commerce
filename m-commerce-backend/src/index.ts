@@ -24,7 +24,7 @@ const PORT = Number(process.env.PORT) || 8000;
 const allowedOrigins = [
   "http://localhost:3000",
   "http://localhost:5173",
-  "https://furniture-frontend-delta.vercel.app",
+  "https://m-commerce-frontend.vercel.app",
 ];
 
 // CORS configuration

@@ -3,7 +3,7 @@ import axios from "axios";
 const API_BASE_URL =
   process.env.NEXT_PUBLIC_DEV_URL ||
   (process.env.NODE_ENV === "production"
-    ? "http://furniture-backend-sepia.vercel.app"
+    ? "https://m-commerce-backend.vercel.app"
     : "http://localhost:8000");
 
 console.log("API Base URL:", API_BASE_URL);
